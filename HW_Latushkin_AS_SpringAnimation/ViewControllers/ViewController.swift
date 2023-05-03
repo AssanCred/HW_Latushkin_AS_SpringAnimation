@@ -42,6 +42,7 @@ extension ViewController {
         springAnimationView.force = animation.force
         springAnimationView.duration = animation.duration
         springAnimationView.delay = animation.delay
+        
         springAnimationView.animate()
         
         animationStatus.setTitle("Name - \(animation.animation)", for: .normal)
